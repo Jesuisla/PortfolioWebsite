@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Varela+Round');
+
+
+body{
+	margin: 0;
+	// background: #000;
+}
+
+header{
+
+			position: fixed;
+			background-color: rgba(255, 255, 255, 0.9);
+			height: 60px;
+			width: 100%;
+			// padding-top: 20px;
+
+			
+			
+
+	
+	// #logoBorder{
+	// 	// position: relative;
+	// 	background-color: #F1A9A0;
+	// 	height: 50px;
+	// 	width: 180px;
+	// 	border: 3px solid #000;
+	// 	border-radius: 30px;
+	// 	// margin-top: 20px;
+	// 	margin-left: 20px;
+		
+	// }
+	
+
+	h1{
+		font-family: 'Shrikhand', cursive;
+		// font-family: 'Varela Round', sans-serif;
+		font-size: 25px;
+		color: #F1A9A0;
+		display: inline-block;
+		float: left;
+		margin-top: 10px;
+		margin-left: 140px;
+
+	}
+	img{
+		height: 25px;
+		display: inline-block;
+		margin-left:10px; 
+		margin-top: 15px;
+		// float: right;
+	}
+	nav{
+		float: right;
+		margin-right: 200px;
+		ul{
+
+			li{
+				font-family: 'Shrikhand', cursive;
+				display: inline-block;
+				color: #F1A9A0;
+				padding-right: 35px;
+			}
+		}
+	}
+
+}
+#sect1{
+	height: 500px;
+	background: url('../img/tree1.jpg');
+	// background-size: 100vh;
+	font-family: 'Shrikhand', cursive;
+	color: #FFF;
+	text-align: center;
+
+	h1{
+		padding-top: 200px;
+		font-size: 90px;
+		margin: 0;
+	}
+
+	i{
+		margin-top: 130px;
+		// color: #BE90D4;
+		background-color: #bfa3b1;
+		// padding: -50px;
+		border-radius: 50%;
+		height: 1em;
+		width: 1em;
+	}
+	a{
+		color: #fff;
+	}
+
+
+
+
+}
+
+#sect2{
+	// position: relative;
+	overflow: hidden;
+	height: 780px;
+	width: 100%;
+	background: #ecf0f1;
+	font-family: 'Varela Round', sans-serif;
+	// text-align: center;
+	.wrapper{
+		// height: 700px;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+	#textWrapper{
+		display: inline-block;
+		float: right;
+		margin-top: 100px;
+		width: 500px;
+
+	}
+	#title{
+		font-size: 50px;
+	}
+
+	h1{
+		font-size: 35px;
+		
+		
+
+	}
+	.mixtapes{
+		// position: absolute;
+		width: 600px;
+		height: 600px;
+		// margin: 0 auto;
+		background: #fff;
+		margin-top: 100px;
+		display: inline-block;
+
+	}
+	.textContent{
+		height: 300px;
+		width: 300px;
+		display: inline-block;
+		margin: 0;
+		h2{
+			margin-top: 100px;
+			margin-left: 50px;
+			// width: 200px;
+			font-family: 'Varela Round', sans-serif;
+
+
+		}
+	}
+	.album{
+		// position: a
+		height: 300px;
+		display: inline-block;
+		float: left;
+	}
+	.overlayEffect{
+		position: absolute;
+		margin-top: 100px;
+		height: 300px;
+		width: 300px;
+		text-align: center;
+
+		i{
+			color: white;
+			margin-top: 100px;
+			display: none;
+		}
+	}
+	.effectDuex{
+		margin-top: 400px;
+	}
+	.overlayEffect:hover i{
+		display: block;
+	}
+	.overlayEffect:hover{
+		-webkit-transition: .5s;
+		background-color: rgba(0, 0, 0, 0.5);
+		
+	}
+}
+
+footer{
+	height: 200px;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+
+	i{
+		// height: 50px;
+		// width: 50px;
+		padding: 12px;
+		margin-top: 80px;
+		margin-left: 40px;
+		border-radius: 50px;
+		background-color: #000;
+		color: #fff;
+	}
+	.fa-facebook{
+		
+		// width: 30px;
+		// height: 30px;
+		padding: 12px 20px 12px 20px;
+	}
+	.fa-instagram{
+		
+		// width: 30px;
+		// height: 30px;
+		padding: 12px 15px 12px 15px;
+	}
+	i:hover{
+		background-color: grey;
+		cursor: pointer;
+	}
+}
+
+@media (max-width:1230px){
+	#sect2{
+	.mixtapes{
+		margin-top: 200px;
+		width: 400px;
+		height: 400px;
+		margin-left: 5%;
+	}
+	.album{
+		height: 200px;
+	}
+
+	.effectUn{
+		margin-top: 200px;
+	}
+	
+	.overlayEffect{
+		margin-left: 5%;
+		height: 200px;
+		width: 200px;
+
+		i{
+			margin-top: 60px;
+		}
+	}
+
+
+	.textContent{
+		height: 200px;
+		width: 200px;
+	}
+	}
+}

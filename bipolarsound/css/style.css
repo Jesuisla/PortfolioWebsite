@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Varela+Round');
+body {
+  margin: 0;
+}
+header {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 60px;
+  width: 100%;
+}
+header h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 25px;
+  color: #F1A9A0;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+header img {
+  height: 25px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+header nav {
+  float: right;
+  margin-right: 200px;
+}
+header nav ul li {
+  font-family: 'Shrikhand', cursive;
+  display: inline-block;
+  color: #F1A9A0;
+  padding-right: 35px;
+}
+#sect1 {
+  height: 500px;
+  background: url('../img/tree1.jpg');
+  font-family: 'Shrikhand', cursive;
+  color: #FFF;
+  text-align: center;
+}
+#sect1 h1 {
+  padding-top: 200px;
+  font-size: 90px;
+  margin: 0;
+}
+#sect1 i {
+  margin-top: 130px;
+  background-color: #bfa3b1;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+#sect1 a {
+  color: #fff;
+}
+#sect2 {
+  overflow: hidden;
+  height: 780px;
+  width: 100%;
+  background: #ecf0f1;
+  font-family: 'Varela Round', sans-serif;
+}
+#sect2 .wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+#sect2 #textWrapper {
+  display: inline-block;
+  float: right;
+  margin-top: 100px;
+  width: 500px;
+}
+#sect2 #title {
+  font-size: 50px;
+}
+#sect2 h1 {
+  font-size: 35px;
+}
+#sect2 .mixtapes {
+  width: 600px;
+  height: 600px;
+  background: #fff;
+  margin-top: 100px;
+  display: inline-block;
+}
+#sect2 .textContent {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 0;
+}
+#sect2 .textContent h2 {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: 'Varela Round', sans-serif;
+}
+#sect2 .album {
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+#sect2 .overlayEffect {
+  position: absolute;
+  margin-top: 100px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+#sect2 .overlayEffect i {
+  color: white;
+  margin-top: 100px;
+  display: none;
+}
+#sect2 .effectDuex {
+  margin-top: 400px;
+}
+#sect2 .overlayEffect:hover i {
+  display: block;
+}
+#sect2 .overlayEffect:hover {
+  -webkit-transition: .5s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+footer i {
+  padding: 12px;
+  margin-top: 80px;
+  margin-left: 40px;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+}
+footer .fa-facebook {
+  padding: 12px 20px 12px 20px;
+}
+footer .fa-instagram {
+  padding: 12px 15px 12px 15px;
+}
+footer i:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+@media (max-width: 1230px) {
+  #sect2 .mixtapes {
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    margin-left: 5%;
+  }
+  #sect2 .album {
+    height: 200px;
+  }
+  #sect2 .effectUn {
+    margin-top: 200px;
+  }
+  #sect2 .overlayEffect {
+    margin-left: 5%;
+    height: 200px;
+    width: 200px;
+  }
+  #sect2 .overlayEffect i {
+    margin-top: 60px;
+  }
+  #sect2 .textContent {
+    height: 200px;
+    width: 200px;
+  }
+}
