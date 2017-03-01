@@ -130,7 +130,7 @@ var source = ".gameGrid";
 
         $(CONST.currentMatchedSel).html(_currentNumMatches);
 
-        if(_currentNumMatches >= _numMatchesToWin) {
+        if(_currentNumMatches >= 7) {
             _gameOver = true;
             $(CONST.gameOverSel).html("Great Job! Play again?");  
             $(CONST.resultsSel).show();          
